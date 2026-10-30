@@ -1,0 +1,15 @@
+[package]
+name = "cw-cli"
+version = "0.1.14"
+edition = "2021"
+license = "MIT"
+description = "Interface shell: TUI, web UI server, document manager and verification tools."
+
+[[bin]]
+name = "opencw"
+path = "src/main.rs"
+
+[dependencies]
+cw-app = { path = "../cw-app" }
+cw-core = { path = "../cw-core" }
+cw-cv = { path = "../cw-cv" }

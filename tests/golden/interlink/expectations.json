@@ -1,0 +1,1109 @@
+{
+  "corpora": {
+    "corp2026": {
+      "guid_index": {
+        "live": 5654,
+        "deleted": 3313,
+        "multi_table": 0,
+        "per_table": {
+          "AC": 77,
+          "AM": 325,
+          "BL": 962,
+          "CV": 1142,
+          "FP": 620,
+          "GL": 17,
+          "HI": 1517,
+          "MP": 788,
+          "SH": 93,
+          "TP": 73,
+          "TS": 47,
+          "WR": 1
+        }
+      },
+      "edges": {
+        "AN.DOCUMENTID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "CV.FORM": {
+          "populated": 1082,
+          "shaped": 1027,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 1027,
+          "targets": {}
+        },
+        "CV.GROUP": {
+          "populated": 1086,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "CV.OWNER": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "EC.TGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "FP.TEXT": {
+          "populated": 326,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.ITEMGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.LINK2GUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.LINKGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GR.DOCID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "PR.DOCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU1": {
+          "populated": 52,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU2": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU3": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU4": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU5": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU6": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU7": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU8": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.DOCUMENTID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.SRCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.TASKUSER": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.ASSIGNEDTO": {
+          "populated": 47,
+          "shaped": 47,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 47,
+          "targets": {}
+        },
+        "TS.CLEAREDBY": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.COMPLETEBY": {
+          "populated": 43,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.CREATEDBY": {
+          "populated": 47,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.DOCID": {
+          "populated": 45,
+          "shaped": 45,
+          "live": 45,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {
+            "SH": 45
+          }
+        },
+        "TS.FILEID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.HISTORYCOM": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.HISTORYCRE": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "WR.DOCGUID": {
+          "populated": 1,
+          "shaped": 1,
+          "live": 1,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {
+            "SH": 1
+          }
+        },
+        "WT.DOCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        }
+      },
+      "typed": {
+        "AN.OBJECTTYPE->OBJECTID": {"anchored": 0, "global": 0, "hit": 0, "miss": 0, "unknown_type": 0},
+        "TS.OBJECTTYPE->OBJECTID": {"anchored": 0, "global": 0, "hit": 0, "miss": 0, "unknown_type": 0}
+      },
+      "numeric": {
+        "am_rows": 325,
+        "am_acno_blank": 0,
+        "pac_populated": 0,
+        "pac_hit": 0,
+        "pac_miss": 0,
+        "mp_rows": 1119,
+        "mp_mapno_prefixed": 554,
+        "mp_prefix_parent_miss": 21,
+        "bl_number_blank": 0,
+        "bl_number_live_am": 962,
+        "bl_number_live_mp": 0,
+        "bl_number_del_am": 0,
+        "bl_number_del_mp": 0,
+        "bl_number_tacno": 0,
+        "bl_number_synthetic": 0,
+        "bl_rows": 962,
+        "bl_entity_foreign_kinds": 0,
+        "bl_entity_foreign_rows": 0,
+        "grp_GROUP0CR_miss": 0,
+        "grp_GROUP0CR_pop": 0,
+        "grp_GROUP0_miss": 0,
+        "grp_GROUP0_pop": 0,
+        "grp_GROUP2CR_miss": 0,
+        "grp_GROUP2CR_pop": 0,
+        "grp_GROUP2_miss": 0,
+        "grp_GROUP2_pop": 0,
+        "grp_GROUP3CR_miss": 0,
+        "grp_GROUP3CR_pop": 0,
+        "grp_GROUP3_miss": 0,
+        "grp_GROUP3_pop": 0,
+        "grp_GROUP4CR_miss": 0,
+        "grp_GROUP4CR_pop": 0,
+        "grp_GROUP4_miss": 0,
+        "grp_GROUP4_pop": 0,
+        "grp_GROUP5CR_miss": 0,
+        "grp_GROUP5CR_pop": 0,
+        "grp_GROUP5_miss": 0,
+        "grp_GROUP5_pop": 0,
+        "grp_GROUP6CR_miss": 0,
+        "grp_GROUP6CR_pop": 0,
+        "grp_GROUP6_miss": 0,
+        "grp_GROUP6_pop": 0,
+        "grp_GROUP7CR_miss": 0,
+        "grp_GROUP7CR_pop": 0,
+        "grp_GROUP7_miss": 0,
+        "grp_GROUP7_pop": 0,
+        "grp_GROUP8CR_miss": 0,
+        "grp_GROUP8CR_pop": 0,
+        "grp_GROUP8_miss": 0,
+        "grp_GROUP8_pop": 0,
+        "grp_GROUP9CR_miss": 0,
+        "grp_GROUP9CR_pop": 0,
+        "grp_GROUP9_miss": 0,
+        "grp_GROUP9_pop": 0
+      },
+      "feed": {
+        "cv_rows": 1142,
+        "cv_ovr_y": 12,
+        "cv_id_blank": 355,
+        "cv_id_dupes": 707,
+        "cv_formid_dupes": 0,
+        "cv_types": {
+          "C": 802,
+          "M": 312,
+          "N": 25,
+          "P": 3
+        },
+        "fp_rows": 620,
+        "fp_dup_keys": 0,
+        "fp_text_guid_shaped": 0,
+        "fp_cells": 457,
+        "fp_wks": {
+          "CLP": 571,
+          "PRG": 1,
+          "UD": 48
+        }
+      }
+    },
+    "hull2024": {
+      "guid_index": {
+        "live": 6726,
+        "deleted": 2902,
+        "multi_table": 1,
+        "per_table": {
+          "AC": 100,
+          "AM": 402,
+          "AN": 373,
+          "BL": 1939,
+          "CV": 73,
+          "FP": 620,
+          "GL": 70,
+          "HI": 1353,
+          "MP": 789,
+          "SH": 101,
+          "TP": 912,
+          "WR": 3
+        }
+      },
+      "edges": {
+        "AN.DOCUMENTID": {
+          "populated": 296,
+          "shaped": 296,
+          "live": 292,
+          "deleted": 0,
+          "unresolved": 4,
+          "targets": {
+            "SH": 292
+          }
+        },
+        "CV.FORM": {
+          "populated": 18,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "CV.GROUP": {
+          "populated": 20,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "CV.OWNER": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "EC.TGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "FP.TEXT": {
+          "populated": 319,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.ITEMGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.LINK2GUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.LINKGUID": {
+          "populated": 37,
+          "shaped": 37,
+          "live": 37,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {
+            "GL": 37
+          }
+        },
+        "GR.DOCID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "PR.DOCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU1": {
+          "populated": 17,
+          "shaped": 2,
+          "live": 0,
+          "deleted": 1,
+          "unresolved": 1,
+          "targets": {
+            "SH": 1
+          }
+        },
+        "SH.AU2": {
+          "populated": 86,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU3": {
+          "populated": 88,
+          "shaped": 2,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 2,
+          "targets": {}
+        },
+        "SH.AU4": {
+          "populated": 66,
+          "shaped": 1,
+          "live": 0,
+          "deleted": 1,
+          "unresolved": 0,
+          "targets": {
+            "SH": 1
+          }
+        },
+        "SH.AU5": {
+          "populated": 17,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU6": {
+          "populated": 14,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU7": {
+          "populated": 16,
+          "shaped": 1,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 1,
+          "targets": {}
+        },
+        "SH.AU8": {
+          "populated": 20,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.DOCUMENTID": {
+          "populated": 21,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.SRCGUID": {
+          "populated": 24,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.TASKUSER": {
+          "populated": 24,
+          "shaped": 1,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 1,
+          "targets": {}
+        },
+        "TS.ASSIGNEDTO": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.CLEAREDBY": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.COMPLETEBY": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.CREATEDBY": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.DOCID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.FILEID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.HISTORYCOM": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.HISTORYCRE": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "WR.DOCGUID": {
+          "populated": 3,
+          "shaped": 3,
+          "live": 3,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {
+            "SH": 3
+          }
+        },
+        "WT.DOCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        }
+      },
+      "typed": {
+        "AN.OBJECTTYPE->OBJECTID": {"anchored": 317, "global": 0, "hit": 181, "miss": 136, "unknown_type": 0},
+        "TS.OBJECTTYPE->OBJECTID": {"anchored": 0, "global": 0, "hit": 0, "miss": 0, "unknown_type": 0}
+      },
+      "numeric": {
+        "am_rows": 402,
+        "am_acno_blank": 0,
+        "pac_populated": 0,
+        "pac_hit": 0,
+        "pac_miss": 0,
+        "mp_rows": 1363,
+        "mp_mapno_prefixed": 569,
+        "mp_prefix_parent_miss": 27,
+        "bl_number_blank": 20,
+        "bl_number_live_am": 1805,
+        "bl_number_live_mp": 6,
+        "bl_number_del_am": 0,
+        "bl_number_del_mp": 0,
+        "bl_number_tacno": 132,
+        "bl_number_synthetic": 479,
+        "bl_rows": 2442,
+        "bl_entity_foreign_kinds": 476,
+        "bl_entity_foreign_rows": 511,
+        "grp_GROUP0CR_miss": 0,
+        "grp_GROUP0CR_pop": 0,
+        "grp_GROUP0_miss": 0,
+        "grp_GROUP0_pop": 0,
+        "grp_GROUP2CR_miss": 0,
+        "grp_GROUP2CR_pop": 0,
+        "grp_GROUP2_miss": 213,
+        "grp_GROUP2_pop": 213,
+        "grp_GROUP3CR_miss": 0,
+        "grp_GROUP3CR_pop": 0,
+        "grp_GROUP3_miss": 0,
+        "grp_GROUP3_pop": 0,
+        "grp_GROUP4CR_miss": 0,
+        "grp_GROUP4CR_pop": 0,
+        "grp_GROUP4_miss": 0,
+        "grp_GROUP4_pop": 0,
+        "grp_GROUP5CR_miss": 0,
+        "grp_GROUP5CR_pop": 0,
+        "grp_GROUP5_miss": 0,
+        "grp_GROUP5_pop": 0,
+        "grp_GROUP6CR_miss": 0,
+        "grp_GROUP6CR_pop": 0,
+        "grp_GROUP6_miss": 0,
+        "grp_GROUP6_pop": 0,
+        "grp_GROUP7CR_miss": 0,
+        "grp_GROUP7CR_pop": 0,
+        "grp_GROUP7_miss": 0,
+        "grp_GROUP7_pop": 0,
+        "grp_GROUP8CR_miss": 0,
+        "grp_GROUP8CR_pop": 0,
+        "grp_GROUP8_miss": 0,
+        "grp_GROUP8_pop": 0,
+        "grp_GROUP9CR_miss": 0,
+        "grp_GROUP9CR_pop": 0,
+        "grp_GROUP9_miss": 340,
+        "grp_GROUP9_pop": 340
+      },
+      "feed": {
+        "cv_rows": 73,
+        "cv_ovr_y": 18,
+        "cv_id_blank": 10,
+        "cv_id_dupes": 6,
+        "cv_formid_dupes": 0,
+        "cv_types": {
+          "C": 49,
+          "D": 1,
+          "M": 2,
+          "N": 18,
+          "P": 3
+        },
+        "fp_rows": 620,
+        "fp_dup_keys": 0,
+        "fp_text_guid_shaped": 0,
+        "fp_cells": 457,
+        "fp_wks": {
+          "CLP": 571,
+          "PRG": 1,
+          "UD": 48
+        }
+      }
+    },
+    "mwgh2025": {
+      "guid_index": {
+        "live": 8882,
+        "deleted": 835,
+        "multi_table": 0,
+        "per_table": {
+          "AC": 103,
+          "AM": 349,
+          "AN": 242,
+          "BL": 1894,
+          "CV": 1149,
+          "FP": 620,
+          "GL": 98,
+          "HI": 1411,
+          "MP": 791,
+          "SH": 94,
+          "TP": 2131,
+          "WR": 2
+        }
+      },
+      "edges": {
+        "AN.DOCUMENTID": {
+          "populated": 143,
+          "shaped": 143,
+          "live": 140,
+          "deleted": 0,
+          "unresolved": 3,
+          "targets": {
+            "SH": 140
+          }
+        },
+        "CV.FORM": {
+          "populated": 1090,
+          "shaped": 1034,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 1034,
+          "targets": {}
+        },
+        "CV.GROUP": {
+          "populated": 1094,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "CV.OWNER": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "EC.TGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "FP.TEXT": {
+          "populated": 319,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.ITEMGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.LINK2GUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "GL.LINKGUID": {
+          "populated": 64,
+          "shaped": 64,
+          "live": 64,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {
+            "GL": 64
+          }
+        },
+        "GR.DOCID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "PR.DOCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU1": {
+          "populated": 76,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU2": {
+          "populated": 58,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU3": {
+          "populated": 76,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU4": {
+          "populated": 52,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU5": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU6": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU7": {
+          "populated": 66,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.AU8": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.DOCUMENTID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.SRCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "SH.TASKUSER": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.ASSIGNEDTO": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.CLEAREDBY": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.COMPLETEBY": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.CREATEDBY": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.DOCID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.FILEID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.HISTORYCOM": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "TS.HISTORYCRE": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        },
+        "WR.DOCGUID": {
+          "populated": 2,
+          "shaped": 2,
+          "live": 2,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {
+            "SH": 2
+          }
+        },
+        "WT.DOCGUID": {
+          "populated": 0,
+          "shaped": 0,
+          "live": 0,
+          "deleted": 0,
+          "unresolved": 0,
+          "targets": {}
+        }
+      },
+      "typed": {
+        "AN.OBJECTTYPE->OBJECTID": {"anchored": 209, "global": 0, "hit": 183, "miss": 26, "unknown_type": 0},
+        "TS.OBJECTTYPE->OBJECTID": {"anchored": 0, "global": 0, "hit": 0, "miss": 0, "unknown_type": 0}
+      },
+      "numeric": {
+        "am_rows": 349,
+        "am_acno_blank": 0,
+        "pac_populated": 0,
+        "pac_hit": 0,
+        "pac_miss": 0,
+        "mp_rows": 1176,
+        "mp_mapno_prefixed": 567,
+        "mp_prefix_parent_miss": 22,
+        "bl_number_blank": 1,
+        "bl_number_live_am": 1722,
+        "bl_number_live_mp": 0,
+        "bl_number_del_am": 0,
+        "bl_number_del_mp": 0,
+        "bl_number_tacno": 168,
+        "bl_number_synthetic": 32,
+        "bl_rows": 1923,
+        "bl_entity_foreign_kinds": 28,
+        "bl_entity_foreign_rows": 28,
+        "grp_GROUP0CR_miss": 0,
+        "grp_GROUP0CR_pop": 0,
+        "grp_GROUP0_miss": 0,
+        "grp_GROUP0_pop": 0,
+        "grp_GROUP2CR_miss": 0,
+        "grp_GROUP2CR_pop": 0,
+        "grp_GROUP2_miss": 0,
+        "grp_GROUP2_pop": 0,
+        "grp_GROUP3CR_miss": 0,
+        "grp_GROUP3CR_pop": 0,
+        "grp_GROUP3_miss": 0,
+        "grp_GROUP3_pop": 0,
+        "grp_GROUP4CR_miss": 0,
+        "grp_GROUP4CR_pop": 0,
+        "grp_GROUP4_miss": 0,
+        "grp_GROUP4_pop": 0,
+        "grp_GROUP5CR_miss": 0,
+        "grp_GROUP5CR_pop": 0,
+        "grp_GROUP5_miss": 0,
+        "grp_GROUP5_pop": 0,
+        "grp_GROUP6CR_miss": 0,
+        "grp_GROUP6CR_pop": 0,
+        "grp_GROUP6_miss": 0,
+        "grp_GROUP6_pop": 0,
+        "grp_GROUP7CR_miss": 0,
+        "grp_GROUP7CR_pop": 0,
+        "grp_GROUP7_miss": 0,
+        "grp_GROUP7_pop": 0,
+        "grp_GROUP8CR_miss": 0,
+        "grp_GROUP8CR_pop": 0,
+        "grp_GROUP8_miss": 0,
+        "grp_GROUP8_pop": 279,
+        "grp_GROUP9CR_miss": 0,
+        "grp_GROUP9CR_pop": 0,
+        "grp_GROUP9_miss": 0,
+        "grp_GROUP9_pop": 0
+      },
+      "feed": {
+        "cv_rows": 1149,
+        "cv_ovr_y": 19,
+        "cv_id_blank": 349,
+        "cv_id_dupes": 721,
+        "cv_formid_dupes": 0,
+        "cv_types": {
+          "C": 795,
+          "D": 1,
+          "M": 319,
+          "N": 31,
+          "P": 3
+        },
+        "fp_rows": 620,
+        "fp_dup_keys": 0,
+        "fp_text_guid_shaped": 0,
+        "fp_cells": 457,
+        "fp_wks": {
+          "CLP": 571,
+          "PRG": 1,
+          "UD": 48
+        }
+      }
+    }
+  }
+}

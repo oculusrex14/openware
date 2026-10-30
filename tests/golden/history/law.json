@@ -1,0 +1,48 @@
+{
+  "provenance": "kernel-derived 2026-10-28 by crates/cw-app/examples/freeze_history.rs over tests/golden/dbf/corp2026 (the C1 verbatim freeze), replacing the lost D4a snapshot 'a sample copy' and the missing sandbox/comwork2 working directory. Value-level facts are asserted over the readable prefix (frontier 1510, pinned below); geometry, schema and the no-op-save law hold on the whole file. See tests/golden/README.md (F63) and guid_law_gate.rs (DAMAGED).",
+  "corpus": "tests/golden/dbf/corp2026",
+  "stem": "USI Compilation Training(1155962)",
+  "dbf_sha256": "12C4B5A3B54B22DBA727B3B345FD39DF48B08B6089FD707E39D8CADC1D48B4DE",
+  "fpt_sha256": "8879ECC0CBD53A593A87D831C87CF82796B6973A6EE6E2A65FE3063246F2714C",
+  "records": 1710,
+  "header_len": 481,
+  "record_len": 201,
+  "frontier": 1510,
+  "boundary": {"last_readable_row": 1509, "last_readable_flag": 32, "last_readable_createdon": "20260827093722", "first_unreadable_row": 1510, "first_unreadable_flag": 32},
+  "fields": [
+    {"name": "CATEGORY", "type": "C", "len": 4, "dec": 0},
+    {"name": "TYPE", "type": "C", "len": 8, "dec": 0},
+    {"name": "OBJECTID", "type": "C", "len": 22, "dec": 0},
+    {"name": "OBJECTTYPE", "type": "C", "len": 2, "dec": 0},
+    {"name": "USER", "type": "C", "len": 22, "dec": 0},
+    {"name": "VALUES", "type": "M", "len": 10, "dec": 0},
+    {"name": "CHECKSUM", "type": "C", "len": 22, "dec": 0},
+    {"name": "MILESTONE", "type": "M", "len": 10, "dec": 0},
+    {"name": "MILESTNREC", "type": "C", "len": 22, "dec": 0},
+    {"name": "STARTDATE", "type": "C", "len": 14, "dec": 0},
+    {"name": "ENDDATE", "type": "C", "len": 14, "dec": 0},
+    {"name": "CWGUID", "type": "C", "len": 22, "dec": 0},
+    {"name": "CWDATE", "type": "C", "len": 14, "dec": 0},
+    {"name": "CREATEDON", "type": "C", "len": 14, "dec": 0}
+  ],
+  "prefix": {
+    "records": 1510,
+    "records_sha": "55B2CA340BD2D493DF3B93B7E850074B497648DAFA76696F17CC8001B914C38E",
+    "live": 1510,
+    "deleted": 0,
+    "users": 28,
+    "categories": {"": 1, "DOC*": 200, "DOC-": 549, "DOCA": 642, "DOCS": 7, "FILA": 111},
+    "types": {"DOCAUSR": 642, "DOCDEL": 549, "DOCPROP": 200, "DOCSIGN1": 7, "FACCUSR": 112},
+    "object_types": {"": 661, "SH": 849},
+    "first_date": "20211110212328",
+    "last_date": "20260827093722"
+  },
+  "samples": {
+    "first_user": {"index": 0, "category": "", "type": "FACCUSR", "object_id": "", "object_type": "", "user": "RSM", "checksum": "", "start_date": "20211110212328", "end_date": "20211110212328", "cwguid": "+jFTqvGp", "cw_date": "20211110213116", "created_on": "20211110212328", "values": "<values><value name=\"username\">RSM</value><value name=\"userinitials\">RSM</value><value name=\"checksumversion\" type=\"integer\">4097</value></values>\r\n", "kind": "UserAccess"},
+    "second_user": {"index": 1, "category": "FILA", "type": "FACCUSR", "object_id": "", "object_type": "", "user": "RSM", "checksum": "", "start_date": "20211110212535", "end_date": "20211110213243", "cwguid": "PDHOiBBwknBJqyqQil3fyb", "cw_date": "20211110213243", "created_on": "20211110212535", "values": "<values><value name=\"username\">RSM</value><value name=\"userinitials\">RSM</value><value name=\"checksumversion\" type=\"integer\">4097</value></values>\r\n", "kind": "UserAccess"},
+    "first_property": {"index": 12, "category": "DOC*", "type": "DOCPROP", "object_id": "JAi2O+ZFUABF91Pq-7zOOv", "object_type": "SH", "user": "e028377", "checksum": "", "start_date": "20231214215140", "end_date": "20231214215140", "cwguid": "BzcrwnbpUicO3GI+IhoGCu", "cw_date": "20231214215140", "created_on": "20231214215140", "values": "<values><value name=\"username\">Amanda Stuckemeyer</value><value name=\"userinitials\" xml:space=\"preserve\">    AS64</value><value name=\"DocPropChange\">2;</value><value name=\"checksumversion\" type=\"integer\">4097</value></values>\r\n", "kind": "DocumentProperty"},
+    "first_delete": {"index": 379, "category": "DOC-", "type": "DOCDEL", "object_id": "", "object_type": "", "user": "e075007", "checksum": "OjRRaUiZlvAB-S3u5erWmj", "start_date": "20240717184941", "end_date": "20240717184941", "cwguid": "OSPjx5jgkTBBP45+J0GHKl", "cw_date": "20240717184941", "created_on": "20240717184941", "values": "<values><value name=\"username\">Virginia Fabiani</value><value name=\"userinitials\" xml:space=\"preserve\">      VF</value><value name=\"deletedid\">1000 (M3)</value><value name=\"deletedname\">Cash Workpaper &amp; Memo</value><value name=\"checksumversion\" type=\"integer\">4097</value></values>\r\n", "kind": "DocumentDelete"},
+    "first_signoff": {"index": 1461, "category": "DOCS", "type": "DOCSIGN1", "object_id": "D3p38Cv2EXWOCG4qIElZ2t", "object_type": "SH", "user": "E120235", "checksum": "C2ynOVTBRIDE2+ax+uu1mw", "start_date": "20260826052812", "end_date": "20260826052812", "cwguid": "Ih6lwO2eEL-J1joGKkxEmP", "cw_date": "20260826052815", "created_on": "20260826052812", "values": "<values><value name=\"username\">Nithiya</value><value name=\"userinitials\">N</value><value name=\"version\">8.11</value><value name=\"checksumversion\" type=\"integer\">28672</value></values>\r\n", "kind": "Signoff(1)"},
+    "last": {"index": 1509, "category": "DOCA", "type": "DOCAUSR", "object_id": "MlL4dtLyklnILXkdwAem6I", "object_type": "SH", "user": "E120235", "checksum": "HNryCaYJuT3DSptuR-CgF4", "start_date": "20260827054010", "end_date": "20260827093722", "cwguid": "DVsIFWin0L3NDuMxzP8ouv", "cw_date": "20260827093722", "created_on": "20260827093722", "values": "<values><value name=\"username\">Nithiya</value><value name=\"userinitials\">N</value><value name=\"checksumversion\" type=\"integer\">28672</value></values>\r\n", "kind": "DocumentAccess"}
+  }
+}

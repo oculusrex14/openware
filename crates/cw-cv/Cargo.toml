@@ -1,0 +1,9 @@
+[package]
+name = "cw-cv"
+version = "0.1.14"
+edition = "2021"
+license = "MIT"
+description = "CaseView document model, expression engine and sheet renderer."
+
+[dependencies]
+cw-core = { path = "../cw-core" }

@@ -1,0 +1,6 @@
+[package]
+name = "cw-core"
+version = "0.1.14"
+edition = "2021"
+license = "MIT"
+description = "Data kernel: package, DBF/memo/index, GUID, interlink, cube and compression formats."

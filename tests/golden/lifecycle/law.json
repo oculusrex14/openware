@@ -1,0 +1,16 @@
+{
+  "provenance": "kernel-derived 2026-10-28 by crates/cw-app/examples/freeze_lifecycle.rs over tests/golden/dbf/corp2026 (the C1 verbatim freeze). Replaces the lost COM probe-source copy ('a sample copy', F64); AC 77/1 and AM 325/0 match that probe exactly, BL and GL are re-grounded on the frozen bytes (BL 962 live / 1198 tombstone, GL 17 live / 3 tombstone). Every F64 law the gate asserts is unchanged.",
+  "source_stem": "TPROBE",
+  "dest_stem": "TOUT",
+  "tables": {"AC": {"live": 77, "deleted": 1, "records": 78}, "AM": {"live": 325, "deleted": 0, "records": 325}, "BL": {"live": 962, "deleted": 1198, "records": 2160}, "GL": {"live": 17, "deleted": 3, "records": 20}},
+  "sidecars": {"AC": "fpt"},
+  "documents": {"cvw": "TPROBE01200RG2.cvw", "hub": "TPROBE.ac", "plain": "Doc1.docx"},
+  "skip": ["copy.ini", "CmpChart.txt"],
+  "skip_suffix": ".locks",
+  "laws": {
+    "copy_all": "live rows only; deletion flags packed to 0; live row multiset preserved byte-for-cell (F64 (3))",
+    "clear_account_balances": "BL former-live rows flag-deleted; GL emptied entirely; AM/AC as CopyAll (F64 (4))",
+    "documents": "sidecar/hub renamed to the destination stem, plain documents carried, runtime artifacts skipped (F64 (2))",
+    "no_selection": "DoCopy raises 'Must complete components information' when no copy flag is set (F64 (1))"
+  }
+}

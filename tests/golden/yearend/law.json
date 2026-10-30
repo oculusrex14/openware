@@ -1,0 +1,41 @@
+{
+  "provenance": "The numeric constants are spec-recorded in attachments/yearend.md (v1.1, F46/F65: fixture-yec1 options-off, fixture-yec2 options-on) and are the authority for this gate. The destination tables under on/ and off/ are self-frozen by examples/freeze_yearend.rs (close_year run over tests/golden/dbf/corp2026 with the pinned stamps) because CW's own yec1/yec2 destination tables are not part of this rebuild; they are regression pins, not a second implementation. Every spec constant below is re-asserted as a literal in the gate and reproduced exactly.",
+  "corpus": "tests/golden/dbf/corp2026",
+  "source_stem": "USI Compilation Training(1155962)",
+  "stamps": {"on": "20261022053523", "off": "20261022053146"},
+  "spec": {
+    "bl_rows_on": 1077,
+    "bl_rows_off": 0,
+    "closing_accounts": 52,
+    "p_twins": 12,
+    "year1_y_rows": 26,
+    "year1_x_rows": 14,
+    "re_opening": "-6806301.24",
+    "net_income": "-3061019.24",
+    "sh_live_before": 93,
+    "sh_live_after": 86,
+    "sh_signoff_cleared": 52
+  },
+  "measured": {
+    "net_income_cents": "-306101924",
+    "bl_records": 1077,
+    "bl_live": 1077,
+    "off_bl_records": 0,
+    "year0_o": 52,
+    "year0_x": 52,
+    "year1_y": 26,
+    "p_rows": 12,
+    "re_opening": "-6806301.24",
+    "closing_accounts": 52,
+    "p_twins": 12,
+    "net_income_cents": -306101924
+  },
+  "tables_on": {"AC": {"src_live": 77, "src_deleted": 1, "dst_live": 77, "dst_deleted": 1}, "AM": {"src_live": 325, "src_deleted": 0, "dst_live": 325, "dst_deleted": 0}, "AN": {"src_live": 0, "src_deleted": 8, "dst_live": 0, "dst_deleted": 8}, "BL": {"src_live": 962, "src_deleted": 1198, "dst_live": 1077, "dst_deleted": 0}, "CE": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "CV": {"src_live": 1142, "src_deleted": 308, "dst_live": 1142, "dst_deleted": 308}, "EC": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "FP": {"src_live": 620, "src_deleted": 0, "dst_live": 620, "dst_deleted": 0}, "GL": {"src_live": 17, "src_deleted": 3, "dst_live": 0, "dst_deleted": 0}, "GR": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "GS": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "HI": {"src_live": 1554, "src_deleted": 1, "dst_live": 0, "dst_deleted": 0}, "MP": {"src_live": 1119, "src_deleted": 0, "dst_live": 1119, "dst_deleted": 0}, "PR": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "RA": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "RL": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "SH": {"src_live": 93, "src_deleted": 107, "dst_live": 86, "dst_deleted": 115}, "TM": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}, "TP": {"src_live": 1376, "src_deleted": 2345, "dst_live": 1376, "dst_deleted": 2345}, "TS": {"src_live": 47, "src_deleted": 3, "dst_live": 0, "dst_deleted": 50}, "WR": {"src_live": 1, "src_deleted": 1, "dst_live": 1, "dst_deleted": 1}, "WT": {"src_live": 0, "src_deleted": 0, "dst_live": 0, "dst_deleted": 0}},
+  "byte_cosmetics_ignored": ["CWGUID", "CWDATE", "CREATEDON"],
+  "fp_open_time_cells": ["146", "254"],
+  "residuals": [
+    "FP cells 146/254 (seq 1/2) are rewired by CW to fresh interlink GUIDs; the engine keeps the source refs (P5.F lane). The gate blanks TEXT on those four rows.",
+    "FPT memo renumbering, CDX rebuild, .cvw roll-forward + .bak and the .ac document-summary rewrite are byte cosmetics, not gated.",
+    "The destination tables are self-frozen: they pin the engine against its own output. The independent authority is the spec constant set above."
+  ]
+}

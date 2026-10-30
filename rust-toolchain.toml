@@ -1,0 +1,6 @@
+# Rust toolchain for OpenCW. Override per-target with RUSTUP_TOOLCHAIN when
+# cross-building (e.g. RUSTUP_TOOLCHAIN=stable-x86_64-pc-windows-gnu for the
+# Windows GNU cross build; see README).
+
+[toolchain]
+channel = "stable"

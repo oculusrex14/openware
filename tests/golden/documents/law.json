@@ -1,0 +1,92 @@
+{
+  "provenance": "kernel-derived 2026-10-28 by crates/cw-app/examples/freeze_documents.rs over tests/golden/dbf/{hull2024,mwgh2025,corp2026} (the C1 verbatim freeze). Per corpus, `frontier` is the SH readable-row count from cw-core/tests/guid_law_gate.rs DAMAGED (null = the table is readable end to end); the census is measured over rows[..frontier]. hull2024/SH is truncated LZMA (664 declared / 603 readable), which is why its census differs from the pre-rebuild full-table constants (118 live / 546 tombstones); corp2026 and mwgh2025 keep their original numbers exactly.",
+  "corpora": {
+  "hull2024": {
+    "stem": "2024 Hull Lift Truck Review(1148441)",
+    "frontier": 603,
+    "declared_records": 664,
+    "sh": {
+      "live": 103,
+      "deleted": 500,
+      "by_type": {" ": 2, "*": 46, "A": 25, "F": 9, "H": 21},
+      "by_prg": {"": 1, "IR": 1, "ac": 101},
+      "headings": 21,
+      "forms": 9,
+      "analyses": 25,
+      "index_rows": 2,
+      "archived": 99,
+      "rolled": 99,
+      "locked": 98,
+      "blank_lineno": 1,
+      "with_parent": 1,
+      "roots": 102,
+      "cycles": 0,
+      "app_lineno_first": 1032006,
+      "app_lineno_last": 2184369,
+      "app_rows": 101
+    },
+    "wr": {"live": 3, "physical": 3},
+    "wt": {"live": 0, "physical": 0},
+    "forms_detail": [{"cvid": "01200RG0", "schedule": "0120 REV", "title": "Review Engagement Completion Questionnaire"}, {"cvid": "01260RG0", "schedule": "0126 REV", "title": "Review Engagement Supervision and Review Questionnaire"}, {"cvid": "04000RG0", "schedule": "0400 REV", "title": "Program for Review Engagements"}, {"cvid": "EXPO0IS0", "schedule": "EXPORT", "title": "Export Admin"}, {"cvid": "FJEIMP", "schedule": "T1M1", "title": "CaseWare FJE Import"}, {"cvid": "03000RG2", "schedule": "0300 REW", "title": "Review Engagement Planning Questionnaire"}, {"cvid": "03250RG1", "schedule": "0325 REV", "title": "Understanding the Client and its Industry"}, {"cvid": "rm", "schedule": "0315.10 REV", "title": "Materiality - $1,739,000   5% = $86,900"}, {"cvid": "22", "schedule": "0272", "title": "Checklist for Disclosures"}],
+    "heading_titles": ["--------WORKING PAPERS--------", "0100 Matters for Partners' Attention", "0200 Account and Reporting Workpapers", "0300 Planning", "0400 Program for Review Engagements", "Recycle Bin", "System Files -- Do Not Change --", "1000 Cash", "1500 Account Receivable and Revenue", "2000 Inventory", "2500 Prepaid Expenses", "4000 Fixed Assets", "5500 Accounts Payable", "5000 Long Term Debt", "6000 Accrued Expenses", "7500 Equity", "8000 Revenue and Expenses", "Tax Workpapers", "Deliverables", "Long Term Debt", "7000 Leases"]
+  },
+  "mwgh2025": {
+    "stem": "MWGH LLC 9-30-25 REVIEW(1239263)",
+    "frontier": null,
+    "declared_records": 258,
+    "sh": {
+      "live": 94,
+      "deleted": 164,
+      "by_type": {" ": 1, "*": 65, "A": 4, "F": 9, "H": 15},
+      "by_prg": {"IR": 1, "ac": 93},
+      "headings": 15,
+      "forms": 9,
+      "analyses": 4,
+      "index_rows": 1,
+      "archived": 93,
+      "rolled": 93,
+      "locked": 93,
+      "blank_lineno": 0,
+      "with_parent": 0,
+      "roots": 94,
+      "cycles": 0,
+      "app_lineno_first": 1042665,
+      "app_lineno_last": 2144001,
+      "app_rows": 93
+    },
+    "wr": {"live": 2, "physical": 3},
+    "wt": {"live": 0, "physical": 0},
+    "forms_detail": [{"cvid": "01260RG0", "schedule": "0126 REV", "title": "Review Engagement Supervision and Review Questionnaire"}, {"cvid": "03000RG0", "schedule": "0300 REV", "title": "Review Engagement Planning Questionnaire"}, {"cvid": "03250RG0", "schedule": "0325 REV", "title": "Understanding the Client and its Industry"}, {"cvid": "04000RG0", "schedule": "0400 REV", "title": "Program for Review Engagements"}, {"cvid": "EXPO0IS0", "schedule": "EXPORT", "title": "Export Admin"}, {"cvid": "03151RG0", "schedule": "0315.10 REV", "title": "Materiality - $482,000 5% = $24,100"}, {"cvid": "990GG0", "schedule": "99", "title": "Audit Planning and Completion Diagnostics"}, {"cvid": "02720GG2", "schedule": "0272", "title": "Checklist for Disclosures"}, {"cvid": "01200RG1", "schedule": "0120 REV", "title": "Review Engagement Completion Questionnaire"}],
+    "heading_titles": ["--------WORKING PAPERS--------", "0100 Matters for Partners' Attention", "0200 Account and Reporting Workpapers", "0300 Planning", "0400 Program for Review Engagements", "Permanent File", "Recycle Bin", "System Files -- Do Not Change --", "0450 ASC 606 Considerations", "0900 General Documents", "0910 Debt Agreements", "0920 Lease Agreements", "0210 Financial Report Backup", "0930 Captive Documents", "Analysis Workpapers"]
+  },
+  "corp2026": {
+    "stem": "USI Compilation Training(1155962)",
+    "frontier": null,
+    "declared_records": 200,
+    "sh": {
+      "live": 93,
+      "deleted": 107,
+      "by_type": {" ": 6, "*": 48, "A": 6, "F": 7, "H": 22, "M": 4},
+      "by_prg": {"EX": 2, "IR": 6, "ac": 85},
+      "headings": 22,
+      "forms": 7,
+      "analyses": 6,
+      "index_rows": 6,
+      "archived": 85,
+      "rolled": 85,
+      "locked": 84,
+      "blank_lineno": 2,
+      "with_parent": 0,
+      "roots": 93,
+      "cycles": 0,
+      "app_lineno_first": 1000000,
+      "app_lineno_last": 3191999,
+      "app_rows": 85
+    },
+    "wr": {"live": 1, "physical": 2},
+    "wt": {"live": 0, "physical": 0},
+    "forms_detail": [{"cvid": "01200RG2", "schedule": "0120", "title": "Review Engagement Completion Questionnaire"}, {"cvid": "01260RG2", "schedule": "0126", "title": "Review Engagement Supervision and Review Questionnaire"}, {"cvid": "02720GG2", "schedule": "0272", "title": "Checklist for Disclosures"}, {"cvid": "03000RG2", "schedule": "0300 (M1)", "title": "Review Engagement Planning Questionnaire"}, {"cvid": "03151RG2", "schedule": "0315.10 (M1)", "title": "Materiality - ($687,800*5% of ML - $34,390)"}, {"cvid": "03250RG2", "schedule": "0325 (M1)", "title": "Understanding the Client and its Industry"}, {"cvid": "04000RG2", "schedule": "0400 (M1)", "title": "Program for Review Engagements"}],
+    "heading_titles": ["MOCK 2 (Review Engagement)", "PY Info", "0100 PY", "Back of Files", "0100 Matter's for Partner's Attention", "0200 Account and Reporting Workpapers", "0300 Planning", "0400 Program for Review Engagements", "Back of File", "1000 CASH", "1500 Accounts Receivable", "2500 Prepaid and Deposits", "3500 Goodwill", "4000 Fixed Assets", "4100 Lease", "5000 Long term Debt", "6005 Accounts Payable", "6500 Accrued Expenses", "7500 Equity", "8000 Revenue and Expenses", "Supporting Documents", "Recycle bin"]
+  }
+  }
+}

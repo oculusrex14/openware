@@ -1,0 +1,23 @@
+{
+  "provenance": "F66 laws from attachments/backup.md (v1.0) — COM-measured on staged sandbox copies and corroborated by the shipped package shape. Only the two assertions the gate reads are recorded here; the rest of §3 is asserted structurally by the gate itself.",
+  "compress": {
+    "output_name": "<stem>.ac_ beside the hub (same directory)",
+    "consumes_sources": true,
+    "include_backups": {"packed": true, "removed_from_disk": true},
+    "omit_backups": {"packed": false, "kept_on_disk": true},
+    "compress2_flags": {"cOmitBackups": 1, "cOmitIndices": 2, "cOmitBackupAndIndicies": 3, "cCompressAllSubFolders": 4},
+    "payload": "hub first (method 8), every other file method 14 (our writer stores deflate; round-trip parity only, F66 §8.4)",
+    "container_streams": 10,
+    "compression_version": "DynaZip5.00.06",
+    "file_information_bytes": 261
+  },
+  "bak": {
+    "name": "<cvw stem>.bak (no rotation counter)",
+    "shape": "CFB with the same CaseView stream set as the sibling .cvw (Form, Form/Layout, Index, ...)",
+    "live_corpus_pairs": "1 .bak per CaseView document"
+  },
+  "cleanup": {
+    "tables": "live rows kept, tombstones dropped in place; live row multiset preserved exactly (F64 CopyAll pack law)",
+    "files": ".bak siblings removed when requested; bytes freed reported"
+  }
+}

@@ -1,0 +1,27 @@
+# OpenCW — the shipped application workspace.
+# Historical verification tooling lives outside this repository.
+
+[workspace]
+resolver = "2"
+members = [
+    "crates/cw-core", # data kernel: DBF/pkg/.ac_/GUID/interlink/cube formats
+    "crates/cw-app",  # domain: accounts, entries, groupings, review, lifecycle
+    "crates/cw-cv",   # CaseView document model + render
+    "crates/cw-cli",  # interface shell (TUI later)
+]
+
+[workspace.package]
+version = "0.1.14"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+cw-core = { path = "crates/cw-core" }
+cw-app = { path = "crates/cw-app" }
+cw-cv = { path = "crates/cw-cv" }
+
+[profile.release]
+strip = true
+lto = "thin"
+
+

@@ -1,0 +1,9 @@
+[package]
+name = "cw-app"
+version = "0.1.14"
+edition = "2021"
+license = "MIT"
+description = "Engagement domain: accounts, entries, groupings, consolidation, FX, review, lifecycle, import."
+
+[dependencies]
+cw-core = { path = "../cw-core" }

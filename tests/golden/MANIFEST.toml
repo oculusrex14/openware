@@ -1,0 +1,2 @@
+# golden areas (accumulate as freezes land)
+areas = ["dbf", "pkg", "cube", "interlink", "area", "lifecycle", "lockdown", "history", "backup", "yearend", "documents", "strings"]

@@ -1,0 +1,219 @@
+{
+ "note": "F6 `Form/Strings` pool law fixtures: decoded text pinned per document.",
+ "law": {
+  "container": "u32 version(=2) u32 unpacked_len u32 count | zip_frame(46) | dynazip_prefix(19) | raw LZMA1",
+  "payload_offset": 77,
+  "props": 93,
+  "lzma": {
+   "lc": 3,
+   "lp": 0,
+   "pb": 2
+  },
+  "crc_rule": "crc32(stream[58..]) == u32 at stream[28]",
+  "entry": "u32 byte_len u8 kind byte[n] 0x00",
+  "sentinel": "0xFFFFFFFF",
+  "kinds": {
+   "3": "text"
+  }
+ },
+ "docs": [
+  {
+   "corpus": "hull2024",
+   "file": "2024 Hull Lift Truck Review(1148441)EXPO0IS0.cvw",
+   "cvw_sha256": "b666e75da9c1d1af28e54ce011b088ccec89b9a99bb500a242a4517d82a6d658",
+   "strings_len": 2591,
+   "unpacked_len": 6671,
+   "count": 256,
+   "stream_slice": {
+    "offset": 34688,
+    "len": 2591
+   },
+   "header_crc": 1300297955,
+   "crc_rule_ok": true,
+   "decoded_len": 6673,
+   "entries_walked": 256,
+   "walk_closed": true,
+   "samples": [
+    {
+     "index": 0,
+     "kind": 3,
+     "text_latin1": ""
+    },
+    {
+     "index": 1,
+     "kind": 3,
+     "text_latin1": "\u0001\u0002"
+    },
+    {
+     "index": 2,
+     "kind": 3,
+     "text_latin1": "C:\\Program Files (x86)\\CaseWare\\Library"
+    },
+    {
+     "index": 3,
+     "kind": 3,
+     "text_latin1": "PRGDIR() + \"Library\""
+    },
+    {
+     "index": 4,
+     "kind": 3,
+     "text_latin1": " Export "
+    },
+    {
+     "index": 5,
+     "kind": 3,
+     "text_latin1": "\" Export \""
+    },
+    {
+     "index": 128,
+     "kind": 3,
+     "text_latin1": "\"Adjusted $\""
+    },
+    {
+     "index": 254,
+     "kind": 3,
+     "text_latin1": "SignificantAccounts"
+    },
+    {
+     "index": 255,
+     "kind": 3,
+     "text_latin1": "PATH+\"\\scripts\\SignificantAccounts.scp\""
+    }
+   ],
+   "all_kind_3": true,
+   "text_sha256": "3221f79d6ba1ac30678a80dd6c165c8d887bd3c1989c6ebd72df184e723a71c3"
+  },
+  {
+   "corpus": "hull2024",
+   "file": "2024 Hull Lift Truck Review(1148441)FJEIMP.cvw",
+   "cvw_sha256": "9c3cde1cec83dd406829ffffe207fcf33d41bc1d325e8c873577c643b11dde36",
+   "strings_len": 756,
+   "unpacked_len": 1205,
+   "count": 53,
+   "stream_slice": {
+    "offset": 46528,
+    "len": 756
+   },
+   "header_crc": 3258947388,
+   "crc_rule_ok": true,
+   "decoded_len": 1207,
+   "entries_walked": 53,
+   "walk_closed": true,
+   "samples": [
+    {
+     "index": 0,
+     "kind": 3,
+     "text_latin1": ""
+    },
+    {
+     "index": 1,
+     "kind": 3,
+     "text_latin1": "\u0001\u0002"
+    },
+    {
+     "index": 2,
+     "kind": 3,
+     "text_latin1": "Import Journal Entries"
+    },
+    {
+     "index": 3,
+     "kind": 3,
+     "text_latin1": "\"Import Journal Entries\""
+    },
+    {
+     "index": 4,
+     "kind": 3,
+     "text_latin1": "Action(\"RunScript\",\"AJEAdd\")"
+    },
+    {
+     "index": 5,
+     "kind": 3,
+     "text_latin1": "Browse..."
+    },
+    {
+     "index": 26,
+     "kind": 3,
+     "text_latin1": "ENTITY"
+    },
+    {
+     "index": 51,
+     "kind": 3,
+     "text_latin1": "CheckTCodes"
+    },
+    {
+     "index": 52,
+     "kind": 3,
+     "text_latin1": "CheckTaxCodes"
+    }
+   ],
+   "all_kind_3": true,
+   "text_sha256": "31c935bb174016faf833ab81c387d37f9f6918be597c8cc22b58840a0efd49eb"
+  },
+  {
+   "corpus": "viewrail2025",
+   "file": "2025 Viewrail Holdings Inc and Subsidi(1243194)EXPO0IS0.cvw",
+   "cvw_sha256": "64ba3a4d199247527c3e34281f6baac003c63257093971c6bd7fceaea8634548",
+   "strings_len": 2588,
+   "unpacked_len": 6671,
+   "count": 256,
+   "stream_slice": {
+    "offset": 34688,
+    "len": 2588
+   },
+   "header_crc": 2573702810,
+   "crc_rule_ok": true,
+   "decoded_len": 6672,
+   "entries_walked": 256,
+   "walk_closed": true,
+   "samples": [
+    {
+     "index": 0,
+     "kind": 3,
+     "text_latin1": ""
+    },
+    {
+     "index": 1,
+     "kind": 3,
+     "text_latin1": "\u0001\u0002"
+    },
+    {
+     "index": 2,
+     "kind": 3,
+     "text_latin1": "C:\\Program Files (x86)\\Caseware\\Library"
+    },
+    {
+     "index": 3,
+     "kind": 3,
+     "text_latin1": "PRGDIR() + \"Library\""
+    },
+    {
+     "index": 4,
+     "kind": 3,
+     "text_latin1": " Export "
+    },
+    {
+     "index": 5,
+     "kind": 3,
+     "text_latin1": "\" Export \""
+    },
+    {
+     "index": 128,
+     "kind": 3,
+     "text_latin1": "\"Adjusted $\""
+    },
+    {
+     "index": 254,
+     "kind": 3,
+     "text_latin1": "SignificantAccounts"
+    },
+    {
+     "index": 255,
+     "kind": 3,
+     "text_latin1": "PATH+\"\\scripts\\SignificantAccounts.scp\""
+    }
+   ],
+   "all_kind_3": true,
+   "text_sha256": "59264c42ffa8e1f79e121a889be6c9f0697d4ac905d5954a4d6f9f6df94a8560"
+  }
+ ]
+}
